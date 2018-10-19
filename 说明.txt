@@ -1,0 +1,12 @@
+开发环境 python3.6   django1.11  数据库用的是mysql
+
+1.使用python将列表数据去重 
+	在 qvchong.py里
+
+2使用python抓取大众点评 全国 运动健身 分类的门店数据
+	整合在django项目的  在dianping文件夹   jianshen/data/dianpng.py里
+
+3. 将2中抓取到的数据，使用django存储到数据库，能使用admin查看到所有数据。
+ 	
+	运行django项目 （需自己配置一下数据库，创建超级用户）打开http://127.0.0.1:8000/     点击提交表单完成爬取 
+	登录admin可以进行查看
